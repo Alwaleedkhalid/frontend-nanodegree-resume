@@ -9,7 +9,7 @@ var bio = {
     location: "Riyadh",
     blog: "Soon :)",
   },
-  welcomeMessage: "Hello world your welcome",
+  welcomeMessage: "Welcome to my Resume ",
   skills: ["Java script", "CSS", "HTML", "Java", "ASP.NET"],
   biopic:"https://pbs.twimg.com/profile_images/583971776398372864/novl8haS.jpg",
   //start a function
@@ -105,8 +105,8 @@ var education = {
     dates: "10/4/2017",
     url: "https://www.rwaq.org/"
   }, {
-    title: "Cloud Computing",
-    school: "Dell",
+    title: "HTML ",
+    school: "Rwaq",
     dates: "20/1/2017",
     url: "www.onlineCourses.com"
   }],
@@ -133,4 +133,5 @@ for (var h= 0; h<education.onlineCourses.length; h++){
   }
 };
 education.display();
+
 $("#mapDiv").append(googleMap);
