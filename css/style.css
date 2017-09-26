@@ -22,6 +22,7 @@ h6 {
 .work-entry,
 .project-entry {
   padding: 0 5%;
+  padding-left: 5%;
 }
 
 h1 {
@@ -61,13 +62,13 @@ h5 {
 
 }
 
-
 .date-text {
   font-style: italic;
   font-size: 14px;
   color: #999;
   line-height: 16px;
   float: left;
+  padding-left: 5%
 }
 
 .location-text {
@@ -76,13 +77,17 @@ h5 {
   color: #999;
   line-height: 16px;
   float: right;
-
+  padding-left: 5%;
 }
-
+em-p {
+  padding: 5%;
+  padding-left: 5%;
+}
 p {
   font-size: 14px;
   color: #333;
   line-height: 21px;
+  padding-left: 5%;
 }
 
 a {
@@ -90,6 +95,7 @@ a {
   text-decoration: none;
   margin-top: 10px;
   display: block;
+  padding-left: 5%;
 }
 
 .welcome-message {
